@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using TestSolution.Context;
 using TestSolution.Helper;
 using TestSolution.Helper.Interface;
+using TestSolution.Services;
 
 namespace TestSolution
 {
@@ -15,6 +16,7 @@ namespace TestSolution
         static async Task Main(string[] args)
         {
             await using IWordHelper wordHelper = new WordHelper(new WordContext());
+            var server = new SocketService(wordHelper);
             if (args.Length != 0)
             {
                 foreach (var arg in args)
@@ -93,7 +95,7 @@ namespace TestSolution
                     }
                     else
                     {
-                        foreach (var word in query!.OrderByDescending(i=>i.Frequency).ThenBy(i=>i.Text).Select(i=>i.Text))
+                        foreach (var word in query!.Select(i=>i.Text))
                         {
                             Console.WriteLine("> " + word); 
                         }

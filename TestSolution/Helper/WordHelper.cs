@@ -55,7 +55,7 @@ namespace TestSolution.Helper
         {
             return prefix.Length < 2
                 ? (null, "Укажите более длинный префикс")
-                : (_wordContext.Words.Where(i => i.Text.StartsWith(prefix)), "");
+                : (_wordContext.Words.Where(i => i.Text.StartsWith(prefix)).OrderByDescending(i=>i.Frequency).ThenBy(i=>i.Text), "");
         }
 
         public async Task<bool> Clear()
