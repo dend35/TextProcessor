@@ -1,0 +1,1596 @@
+К дополнительным результатамК основным результатамОбратная связь о специальных возможностях
+проверить файл на существование C#
+ 
+File.Exists(String) Метод (System.IO) | Microsoft Docs
+docs.microsoft.com›Net›system.io.file.exists…
+Определяет, существует ли заданный файл.Determines whether the specified file exists. ... Если у вызывающего оператора нет достаточных полномочий на чтение заданного файла, исключения не создаются, а данный метод возвращает false вне зависимости от существования path.If the caller does not have sufficient... Читать ещё
+Проверка файла на существование - C# - Киберфорум
+CyberForum.ru›csharp-beginners/thread268428.html
+Проверка на существование файла Программа проверяет существует ли данный файл в текущем каталоге. using System ... Проверка файла на существование Подскажите пожалуйста, почему выполняется только вторая функция? Читать ещё
+Файлы в C# — проверяем наличие файла, определяем...
+nullpro.info›2011/fajly-v-c-proveryaem-nalichie/
+Проверить, существует ли файл, можно с помощью функции Exists класса File. ... Проверить, существует ли каталог и создать новый - Directory.Exists и Directory.CreateDirectory. Читать ещё
+Проверка на существование файла средствами с++
+ru.stackoverflow.com›…Проверка-на-существование…с
+Как осуществить проверку на существования файла в папке под ОС Windows? Желательно не пользоваться какими-то библиотеками помимо стандартных и Windows.h. Читать ещё
+Проверка файла на наличие / существование / Хабр
+habr.com›ru/post/50846/
+Как же можно средствами PHP проверить существование файла. Есть функция file_exists(), но она хороша только для файлов в пределах нашей файловой системы, а с удаленным сервером не пройдет. Есть вариант открывать файл на чтение и в случие ошибки констатировать факт, что файла не существует... Читать ещё
+Как определить, есть ли файл на диске?
+rsdn.org›article/qna/baseserv/fileexist.xml
+С помощью этого способа можно определять не только существование отдельного файла, но также и группы файлов, соответствующей заданной маске. А если задать маску как "*.*", то можно узнать есть ли файлы в заданной директории. Читать ещё
+Самый быстрый способ проверить, существует ли файл...
+askdev.ru›q/samyy-bystryy-sposob-proverit…li-fayl…
+...проверить, существует ли файл в стандартном C++11, C++ или C. У меня есть тысячи файлов, и прежде чем что-то ... Ну, я собрал тестовую программу, которая запускала каждый из этих методов 100 000 раз, наполовину на файлах, которые существовали, и наполовину на файлах, которые не существовали... Читать ещё
+Решение: Проверка существования файла - C# (189428)
+studassistent.ru›charp/proverka…fayla-c
+[C#] Задача: Проверка существования файла Исходный код программы Помощь. Ломаю голову, не знаю как сделать... Вообщем, надо: Что-бы, функция проверяла, есть ли уже такой файл в директории. Читать ещё
+C++ - Как проверить, существует ли файл перед...
+web-answers.ru›…kak-proverit-sushhestvuet-li-fajl…
+[Сначала мы проверяем, существует ли файл, а затем создаем его — но кто-то еще мог создать его между проверкой и созданием — если это критично, вам нужно будет сделать что-то еще, что не переносимо]. Читать ещё
+[c] Как проверить, существует ли файл? — Development...
+linux.org.ru›forum/development/6998029
+Хотя чаще возникает задача: если файл существует, открыть, если не существует - создать. Опять же решается open. ... Если тебе нужно не просто однократно проверить существование файла, а отследить его создание или удаление, то имеет смысл посмотреть в сторону inotify. man 7 inotify. inotify - monitoring... Читать ещё
+Как проверить существование сетевого файла? - C#...
+programmersforum.ru›showthread.php…
+Например, есть api-функция FindFirstFile. Если нет доступа к удалённому компьютеру, то будет создаваться ошибка, по номеру которой можно понять: или файла нет, или нет доступа к...
+19 июня 2019
+Проверка файла на существование | Форум
+forum.ascon.ru›index.php?topic=26546.0
+Здравствуйте. Нужен пример кода на C# проверки существования файла. ... Проверка файла на существование. Автор e7now, 21.07.14, 05:52:49. Читать ещё
+Проверка наличия файла в папке | ZennoLab...
+zennolab.com›discussion…proverka-nalichija-fajla…
+Проверка наличия файла в папке. Автор темы Mangazey. ... Как вариант из кубиков, получить список файлов в папке в список после проверить наличии переменной в этом ... Вставить в экшен C# в переменной proverka_foto должен быть путь к файлу. Нажмите, чтобы раскрыть... Что-то я наверное не так делаю... Читать ещё
+Проверка на существование файла | Форум
+forum.mista.ru›topic.php?id=763305
+Открывает файл если есть приложение по умолчанию которое его открывает. Можно ли как то открыть каталог если к примеру не получается открыть сам файл? Если он еще в проводнике там и с позиционируется на файле то совсем круто. Читать ещё
+Как проверить существует ли файл?
+v8.1c.ru›obuchenie…s_faylami/kak_proverit…fayl.htm
+Примеры разработки. Работа с файлами. Как проверить существует ли файл? ... Подробнее об использовании метода Существует() можно прочитать в синтакс-помощнике: Общие объекты - Работа с файлами - Файл - Методы Читать ещё
+Люди ищут
+проверить файл на вирус
+проверить файл на вирусы онлайн kaspersky
+проверить файл на стиллер
+проверить файл на вирусы онлайн dr web
+проверить файл на антиплагиат онлайн
+проверить файл на вирусы онлайн
+проверить файл на антиплагиат
+проверить файл на плагиат онлайн бесплатно
+проверить файл на стиллер онлайн
+проверить файл на антиплагиат бесплатно онлайн
+12345дальше
+Нашёлся 1 млн результатов
+Дать объявление
+
+METANIT.COM
+Сайт о программировании
+       
+НОВОСТИ C#/.NET JAVA WEB PYTHON C/C++ SQL MONGODB GO VB.NET SWIFT KOTLIN DART
+Финализируемые объекты
+Последнее обновление: 13.10.2019
+   
+Большинство объектов, используемых в программах на C#, относятся к управляемым или managed-коду, и легко очищаются сборщиком мусора. Однако вместе с тем встречаются также и такие объекты, которые задействуют неуправляемые объекты (низкоуровневые файловые дескрипторы, сетевые подключения и т.д.). Такие неуправляемые объекты обращаются к API операционной системы через службы PInvoke. Сборщик мусора может справиться с управляемыми объектами, однако он не знает, как удалять неуправляемые объекты. В этом случае разработчик должен сам реализовывать механизмы очистки на уровне программного кода.
+
+Освобождение неуправляемых ресурсов подразумевает реализацию одного из двух механизмов:
+
+Создание деструктора
+
+Реализация классом интерфейса System.IDisposable
+
+Создание деструкторов
+Если вы вдруг программировали на языке C++, то наверное уже знакомы с концепцией деструкторов. Метод деструктора носит имя класса (как и конструктор), перед которым стоит знак тильды (~). Например, создадим деструктор класса Person:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+public class Person
+{
+    public string Name { get; set; }
+     
+    ~Person()
+    {
+        Console.Beep();
+        Console.WriteLine("Disposed");
+    }
+}
+Деструктор в отличие от конструктора не может иметь модификаторов доступа. В данном случае в деструкторе в целях демонстрации просто вызывается звуковой сигнал и выводится строка на консоль, но в реальных программах в деструктор вкладывается логика освобождения неуправляемых ресурсов.
+
+Однако на деле при очистке сборщик мусора вызывает не деструктор, а метод Finalize класса Person. Все потому, что компилятор C# компилирует деструктор в конструкцию, которая эквивалентна следующей:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+protected override void Finalize()
+{
+    try
+    {
+        // здесь идут инструкции деструктора
+    }
+    finally
+    {
+        base.Finalize();
+    }
+}
+Метод Finalize уже определен в базовом для всех типов классе Object, однако данный метод нельзя так просто переопределить. И фактическая его реализация происходит через создание деструктора.
+
+Используя в программе класс Person, после ее завершения можно будет услышать голосовой сигнал и увидеть на консоли выводимую строку:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+class Program
+{
+    static void Main(string[] args)
+    {
+        Test();
+        GC.Collect();
+        Console.ReadLine();
+    }
+    private static void Test()
+    {
+        Person p = new Person();
+    }
+}
+Обратите внимание, что даже после завершения метода Test и соответственно удаления из стека ссылки на объект Person в куче, может не последовать немедленного вызова деструктора. Лишь при завершении всей программы гарантировано произойдет очистка памяти и вызов деструктора. Поэтому для более быстой очистки памяти применяется метод GC.Collect.
+
+На уровне памяти это выглядит так: сборщик мусора при размещении объекта в куче определяет, поддерживает ли данный объект метод Finalize. И если объект имеет метод Finalize, то указатель на него сохраняется в специальной таблице, которая называется очередь финализации. Когда наступает момент сборки мусора, сборщик видит, что данный объект должен быть уничтожен, и если он имеет метод Finalize, то он копируется в еще одну таблицу и окончательно уничтожается лишь при следующем проходе сборщика мусора.
+
+И здесь мы можем столкнуться со следующей проблемой: а что если нам немедленно надо вызвать деструктор и освободить все связанные с объектом неуправляемые ресурсы? В этом случае мы можем использовать второй подход - реализацию интерфейса IDisposable.
+
+Интерфейс IDisposable
+Интерфейс IDisposable объявляет один единственный метод Dispose, в котором при реализации интерфейса в классе должно происходить освобождение неуправляемых ресурсов. Например:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+class Program
+{
+    static void Main(string[] args)
+    {
+        Test();
+        Console.ReadLine();
+    }
+ 
+    private static void Test()
+    {
+        Person p=null;
+        try
+        {
+            p = new Person();
+        }
+        finally
+        {
+            if (p != null)
+            {
+                p.Dispose();
+            }
+        }
+    }
+}
+public class Person : IDisposable
+{
+    public string Name { get; set; }
+    public void Dispose()
+    {
+        Console.Beep();
+        Console.WriteLine("Disposed");
+    }
+}
+В данном коде используется конструкция try...finally. По сути эта конструкция по функционалу в общем эквивалентна следующим двум строкам кода:
+
+1
+2
+Person p = new Person();
+p.Dispose();
+Но конструкцию try...finally предпочтительнее использовать при вызове метода Dispose, так как она гарантирует, что даже в случае возникновения исключения произойдет освобождение ресурсов в методе Dispose.
+
+Комбинирование подходов
+Мы рассмотрели два подхода. Какой же из них лучше? С одной стороны, метод Dispose позволяет в любой момент времени вызвать освобождение связанных ресурсов, а с другой - программист, использующий наш класс, может забыть поставить в коде вызов метода Dispose. В общем бывают различные ситуации. И чтобы сочетать плюсы обоих подходов мы можем использовать комбинированный подход. Microsoft предлагает нам использовать следующий формализованный шаблон:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+public class SomeClass: IDisposable
+{
+    private bool disposed = false;
+ 
+    // реализация интерфейса IDisposable.
+    public void Dispose()
+    {
+        Dispose(true);
+        // подавляем финализацию
+        GC.SuppressFinalize(this);
+    }
+ 
+    protected virtual void Dispose(bool disposing)
+    {
+        if (!disposed)
+        {
+            if (disposing)
+            {
+                // Освобождаем управляемые ресурсы
+            }
+            // освобождаем неуправляемые объекты
+            disposed = true;
+        }
+    }
+ 
+    // Деструктор
+    ~SomeClass()
+    {
+        Dispose (false);
+    }
+}
+Логика очистки реализуется перегруженной версией метода Dispose(bool disposing). При вызове деструктора в качестве параметра disposing передается значение false, чтобы избежать очистки управляемых ресурсов, так как мы не можем быть уверенными в их состоянии, что они до сих пор находятся в памяти. И в этом случае остается полагаться на деструкторы этих ресурсов. Ну и в обоих случаях освобождаются неуправляемые ресурсы.
+
+Еще один важный момент - вызов в методе Dispose метода GC.SuppressFinalize(this). GC.SuppressFinalize не позволяет системе выполнить метод Finalize для данного объекта.
+
+Таким образом, даже если разработчик не использует в программе метод Dispose, все равно произойдет очистка и освобождение ресурсов.
+
+Общие рекомендации по использованию Finalize и Dispose
+Деструктор следует реализовывать только у тех объектов, которым он действительно необходим, так как метод Finalize оказывает сильное влияние на производительность
+
+После вызова метода Dispose необходимо блокировать у объекта вызов метода Finalize с помощью GC.SuppressFinalize
+
+При создании производных классов от базовых, которые реализуют интерфейс IDisposable, следует также вызывать метод Dispose базового класса:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+public class Derived: Base
+{
+    private bool IsDisposed = false;
+ 
+    protected override void Dispose(bool disposing)
+    {
+        if (IsDisposed) return;
+        if (disposing)
+        {
+            // Освобождение управляемых ресурсов
+        }
+        IsDisposed = true;
+        // Обращение к методу Dispose базового класса
+        base.Dispose(disposing);
+    }
+}
+Отдавайте предпочтение комбинированному шаблону, реализующему как метод Dispose, так и деструктор
+
+НазадСодержаниеВперед
+
+   
+
+Помощь сайту
+WebMoney
+P378451176208
+Z280152397659
+Yandex-деньги
+410011174743222
+PayPal
+metanit22@mail.ru
+Глава 1. Введение в C#
+Глава 2. Основы программирования на C#
+Глава 3. Классы. Объектно-ориентированное программирование.
+Глава 4. Обработка исключений
+Глава 5. Делегаты, события и лямбды
+Глава 6. Интерфейсы
+Глава 7. Дополнительные возможности ООП в C#
+Глава 8. Объектно-ориентированное программирование. Практика
+Глава 9. Коллекции
+Глава 10. Работа со строками
+Глава 11. Работа с датами и временем
+Глава 12. Дополнительные классы и структуры .NET
+Глава 13. Многопоточность
+Глава 14. Параллельное программирование и библиотека TPL
+Глава 15. Aсинхронное программирование
+Глава 16. LINQ
+Глава 17. Parallel LINQ
+Глава 18. Рефлексия
+Глава 19. Dynamic Language Runtime
+Глава 20. Сборка мусора, управление памятью и указатели
+Сборщик мусора в C#
+Финализируемые объекты. Метод Dispose
+Конструкция using
+Указатели
+Указатели на структуры, члены классов и массивы
+Глава 21. Работа с потоками и файловой системой
+Глава 22. Работа с JSON
+Глава 23. Работа с XML
+Глава 24. Процессы и домены приложения
+Глава 25. Валидация модели
+Вконтакте| Twitter| Канал сайта на youtube| Помощь сайту
+Контакты для связи: metanit22@mail.ru
+
+Copyright © metanit.com, 2012-2020. Все права защищены.
+
+METANIT.COM
+Сайт о программировании
+       
+НОВОСТИ C#/.NET JAVA WEB PYTHON C/C++ SQL MONGODB GO VB.NET SWIFT KOTLIN DART
+Массив параметров и ключевое слово params
+Последнее обновление: 23.09.2019
+   
+Во всех предыдущих примерах мы использовали постоянное число параметров. Но, используя ключевое слово params, мы можем передавать неопределенное количество параметров:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+static void Addition(params int[] integers)
+{
+    int result = 0;
+    for (int i = 0; i < integers.Length; i++)
+    {
+        result += integers[i];
+    }
+    Console.WriteLine(result);
+}
+ 
+static void Main(string[] args)
+{
+    Addition(1, 2, 3, 4, 5);
+     
+    int[] array = new int[] { 1, 2, 3, 4 };
+    Addition(array);
+ 
+    Addition();
+    Console.ReadLine();
+}
+Сам параметр с ключевым словом params при определении метода должен представлять одномерный массив того типа, данные которого мы собираемся использовать. При вызове метода на место параметра с модификатором params мы можем передать как отдельные значения, так и массив значений, либо вообще не передавать параметры.
+
+Если же нам надо передать какие- то другие параметры, то они должны указываться до параметра с ключевм словом params:
+
+1
+2
+3
+//Так работает
+static void Addition( int x, string mes, params int[] integers)
+{}
+Вызов подобного метода:
+
+1
+Addition(2, "hello", 1, 3, 4);
+Однако после параметра с модификатором params мы НЕ можем указывать другие параметры. То есть следующее определение метода недопустимо:
+
+1
+2
+3
+//Так НЕ работает
+static void Addition(params int[] integers, int x, string mes)
+{}
+Массив в качестве параметра
+Также этот способ передачи параметров надо отличать от передачи массива в качестве параметра:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+// передача параметра с params
+static void Addition(params int[] integers)
+{
+    int result = 0;
+    for (int i = 0; i < integers.Length; i++)
+    {
+        result += integers[i];
+    }
+    Console.WriteLine(result);
+}
+// передача массива
+static void AdditionMas(int[] integers, int k)
+{
+    int result = 0;
+    for (int i = 0; i < integers.Length; i++)
+    {
+        result += (integers[i]*k);
+    }
+    Console.WriteLine(result);
+}
+ 
+static void Main(string[] args)
+{
+    Addition(1, 2, 3, 4, 5);
+ 
+    int[] array = new int[] { 1, 2, 3, 4 };
+    AdditionMas(array, 2);
+ 
+    Console.ReadLine();
+}
+Так как метод AdditionMas принимает в качестве параметра массив без ключевого слова params, то при его вызове нам обязательно надо передать в качестве параметра массив.
+
+Дополнительные материалы
+Вопросы для самопроверки
+Модуль 13. Ключевое слово params и массив параметров в языке программирования C#
+НазадСодержаниеВперед
+
+   
+
+Помощь сайту
+WebMoney
+P378451176208
+Z280152397659
+Yandex-деньги
+410011174743222
+PayPal
+metanit22@mail.ru
+Глава 1. Введение в C#
+Глава 2. Основы программирования на C#
+Структура программы
+Переменные
+Литералы
+Типы данных
+Консольный ввод-вывод
+Арифметические операции
+Поразрядные операции
+Операции присваивания
+Преобразования базовых типов данных
+Условные выражения
+Условные конструкции
+Циклы
+Массивы
+Программа сортировки массива
+Методы
+Параметры методов
+Передача параметров по ссылке и значению. Выходные параметры
+Массив параметров и ключевое слово params
+Область видимости (контекст) переменных
+Рекурсивные функции
+Перечисления enum
+Кортежи
+Глава 3. Классы. Объектно-ориентированное программирование.
+Глава 4. Обработка исключений
+Глава 5. Делегаты, события и лямбды
+Глава 6. Интерфейсы
+Глава 7. Дополнительные возможности ООП в C#
+Глава 8. Объектно-ориентированное программирование. Практика
+Глава 9. Коллекции
+Глава 10. Работа со строками
+Глава 11. Работа с датами и временем
+Глава 12. Дополнительные классы и структуры .NET
+Глава 13. Многопоточность
+Глава 14. Параллельное программирование и библиотека TPL
+Глава 15. Aсинхронное программирование
+Глава 16. LINQ
+Глава 17. Parallel LINQ
+Глава 18. Рефлексия
+Глава 19. Dynamic Language Runtime
+Глава 20. Сборка мусора, управление памятью и указатели
+Глава 21. Работа с потоками и файловой системой
+METANIT.COM
+Сайт о программировании
+       
+НОВОСТИ C#/.NET JAVA WEB PYTHON C/C++ SQL MONGODB GO VB.NET SWIFT KOTLIN DART
+MySQL
+Последнее обновление: 27.10.2019
+   
+На данный момент для работы с MySQL имеется несколько провайдеров, но в данном случае мы будем использовать провайдер Pomelo.EntityFrameworkCore.MySql от Pomelo Foundation Project. Стоит отметить, что на данный момент (27 октября 2019) для версии EF Core он пока в предрелизном состоянии, поэтому мы будем использовать пререлизную версию.
+
+Для подключения к MySQL создадим новый консольный проект .NET Core и добавим через Nuget пакет Pomelo.EntityFrameworkCore.MySql:
+
+MySQL в Entity Framework Core
+Стоит отметить, что также есть официальный провайдер от Oracle - MySql.Data.EntityFrameworkCore, но он развивается довольно медленно (на данный момент не поддерживает EF Core 3.x), кроме того, не имеет поддержки ряда функционала.
+
+Для работы определим модель User:
+
+1
+2
+3
+4
+5
+6
+public class User
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
+И также определим контекст данных - класс ApplicationContext:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+using Microsoft.EntityFrameworkCore;
+ 
+namespace MySQLApp
+{
+    public class ApplicationContext : DbContext
+    {
+        public DbSet<User> Users { get; set; }
+ 
+        public ApplicationContext()
+        {
+            Database.EnsureCreated();
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseMySql("server=localhost;UserId=root;Password=password;database=usersdb3;");
+        }
+    }
+}
+Для работы с MySQL вызывается метод UseMySql(), в который передается строка подключения. В строке подключения указываются адрес сервера (параметр server), имя пользователя в субд (UserId), его пароль (Password) и имя базы данных (Database).
+
+И для тестирования определим в файле Program.cs добавление и вывод данных:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+using System;
+using System.Linq;
+ 
+namespace MySQLApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                User user1 = new User { Name = "Tom", Age = 33 };
+                User user2 = new User { Name = "Alice", Age = 26 };
+ 
+                db.Users.Add(user1);
+                db.Users.Add(user2);
+                db.SaveChanges();
+                Console.WriteLine("Объекты успешно сохранены");
+ 
+                var users = db.Users.ToList();
+                Console.WriteLine("Список объектов:");
+                foreach (User u in users)
+                {
+                    Console.WriteLine($"{u.Id}.{u.Name} - {u.Age}");
+                }
+            }
+            Console.Read();
+        }
+    }
+}
+Результат программы:
+
+Объекты успешно сохранены
+Список объектов:
+1.Tom - 33
+2.Alice - 26
+НазадСодержание
+
+   
+
+Помощь сайту
+WebMoney
+P378451176208
+Z280152397659
+Yandex-деньги
+410011174743222
+PayPal
+metanit22@mail.ru
+Глава 1. Введение в Entity Framework Core
+Глава 2. Создание моделей в Entity Framework Core
+Глава 3. Отношения между моделями
+Глава 4. Наследование
+Глава 5. Запросы и LINQ to Entities
+Глава 6. SQL в Entity Framework Core
+Глава 7. Провайдеры баз данных
+PostgreSQL
+MySQL
+Глава 8. Дополнительные статьи
+Вконтакте| Twitter| Канал сайта на youtube| Помощь сайту
+Контакты для связи: metanit22@mail.ru
+
+METANIT.COM
+Сайт о программировании
+       
+НОВОСТИ C#/.NET JAVA WEB PYTHON C/C++ SQL MONGODB GO VB.NET SWIFT KOTLIN DART
+Автоматизация Code First и EF Power Tools
+Последнее обновление: 31.10.2015
+   
+Кроме вышеописанной функциональности Microsoft предлагает нам полезный инструмент, также призванный автоматизировать данный процесс. Этот инструмент называется EF Power Tools.
+
+EF Power Tools представляет собой надстройку к Visual Studio. Эту надстройку, а также краткое описание можно найти на странице Entity Framework Power Tools . Для установки достаточно нажать на этой веб-странице на кнопку "Загрузка" и дальше следовать инструкциям.
+
+В то же время есть некоторые ограничения: надстройка Entity Framework Power Tools работает только в полных версиях Visual Studio. В экспресс же версиях не работает.
+
+Итак, если у вас полнофункциональная версия Visual Studio 2012 или 2013, то вы можете нажать в окне Solution Explorer (Обозреватель решений) на проект правой кнопкой мыши и увидеть в контекстном меню пункт Entity Framework:
+
+EF Power Tools
+Выберем пункт Entity Framework –> Reverse Engineer Code First. Затем откроется окно настройки подключения, где нам надо задать сервер и базу данных, с которой нам надо взаимодействовать:
+
+
+Я выбрал базу данных, которая была создана в прошлой теме.
+
+Затем нажмем ОК. После этого в проект будет добавлена папка Models, в которой будут находиться все созданные классы. По умолчанию для каждой таблицы создается свой класс, и также генерируется класс контекста данных:
+
+
+Поскольку в моей базе данных была одна таблица Users, то автоматически был создан класс User, который отражает структуру таблицы:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+using System;
+using System.Collections.Generic;
+ 
+namespace EFPowerTools.Models
+{
+    public partial class User
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+    }
+}
+Контекст данных userstoredbContext:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+using EFPowerTools.Models.Mapping;
+ 
+namespace EFPowerTools.Models
+{
+    public partial class userstoredbContext : DbContext
+    {
+        static userstoredbContext()
+        {
+            Database.SetInitializer<userstoredbContext>(null);
+        }
+ 
+        public userstoredbContext()
+            : base("Name=userstoredbContext")
+        {
+        }
+ 
+        public DbSet<User> Users { get; set; }
+ 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add(new UserMap());
+        }
+    }
+}
+Он имеет два конструктора. Статический конструктор призван выполнить начальную инициализацию данных. В данном случае он ничего не выполняет.
+
+Стандартный конструктор обращается к конструктору базового класса (то есть класса DbContext) и передает ему название строки подключения (base("Name=userstoredbContext")).
+
+Для взаимодействия с таблицей Users класс контекста имеет одноименное свойство public DbSet<User> Users { get; set; }
+
+И в методе OnModelCreating выполняются действия при создании моделей. В данном случае с помощью класса UserMap настраивается конфигурация связей между классами и базой данных.
+
+Этот класс UserMap выполняет сопоставление таблиц и их столбцов с классами и их свойствами:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity.ModelConfiguration;
+ 
+namespace EFPowerTools.Models.Mapping
+{
+    public class UserMap : EntityTypeConfiguration<User>
+    {
+        public UserMap()
+        {
+            // Primary Key
+            this.HasKey(t => t.Id);
+ 
+            // Properties
+            this.Property(t => t.Name)
+                .IsRequired()
+                .HasMaxLength(50);
+ 
+            // Table & Column Mappings
+            this.ToTable("Users");
+            this.Property(t => t.Id).HasColumnName("Id");
+            this.Property(t => t.Name).HasColumnName("Name");
+            this.Property(t => t.Age).HasColumnName("Age");
+        }
+    }
+}
+Остальная работа с базой данных будет происходить также, как и при стандартном подходе Code First. То есть, если нам надо добавить в таблицу новый объект User, то мы пишем:
+
+1
+2
+3
+User p = new User { Name = "Имя", Age = 30 };
+userstoredbContext.Users.Add(p);
+userstoredbContext.SaveChanges();
+Конечно, в реальности базы данных, как правило, обладают более сложной структурой, и поэтому структура генерируемых классов также будет сложнее класса User. Но на данном примере уже понятно, что мы можем значительно автоматизировать часть работы по созданию классов моделей.
+
+НазадСодержаниеВперед
+
+   
+
+Помощь сайту
+WebMoney
+P378451176208
+Z280152397659
+Yandex-деньги
+410011174743222
+PayPal
+metanit22@mail.ru
+Глава 1. Введение в Entity Framework 6
+Глава 2. Взаимодействие с данными. Подходы
+Code First к существующей базе данных
+Соглашения по наименованию в Code First
+Автоматизация Code First
+Автоматизация Code First и EF Power Tools
+Database First
+Model First
+Глава 3. Основы Entity Framework
+Глава 4. LINQ to Entities
+Глава 5. SQL в Entity Framework
+Глава 6. Fluent API и аннотации
+Глава 7. Наследование в Entity Framework
+Глава 8. Асинхронность
+Вконтакте| Twitter| Канал сайта на youtube| Помощь сайту
+Контакты для связи: metanit22@mail.ru
+
+КАК СТАТЬ АВТОРОМ  Яндекс купит Тинькофф за $5,5 млрд
+Стажировка в "Лаборатории Касперского"
+Все потоки
+Разработка
+Администрирование
+Дизайн
+Менеджмент
+Маркетинг
+Научпоп
+
+StrangeAttractor
+18 марта 2017 в 17:09
+Использование Entity Framework Core code-first с СУБД SQLite при разработке WinForms-приложений в VisualStudio 2015
+.NET,
+Visual Studio,
+SQLite
+Из песочницы
+На первый взгляд нижеприведённый материал может показаться ещё одним банальным «хэллоууорлдом», «туториалом от Капитана Очевидность», коих уже предостаточно на просторах Сети, но это впечатление обманчиво. На деле чтобы добиться того же результата с нуля у WinForms-программиста, не работавшего ранее с Entity Framework Core (не путать с классической Entity Framework) и вооружённого только уже валяющимися в изобилии на просторах Сети туториалами по EF Core и документацией может уйти куда больше времени, чем он наивно ожидал до того, как взялся за дело. Так случилось и со мной. Посему хочу поделиться опытом.
+
+Основная проблема заключается в том, что имеющиеся материалы по EF Core в подавляющем большинстве не подразумевают использование Visual Studio (вместо этого подразумевается использование легковесного кроссплатформенного тулинга .NET Core) и уж точно не берут в расчёт, что кому-то захочется использовать EF Core в дэсктопном приложении на основе фрэймворка Windows Forms (вместо этого как правило подразумевается использование ASP.NET core). Но задачи и ситуации, в которых предпочтительно (или и вовсе необходимо) решение в виде дэсктопного приложения всё-ещё встречаются, и свои преимущества (как, разумеется, и недостатки) у Entity Framework Core по сравнению с Entity Framework 6 есть. Кроме того в доступных в Сети примерах как правило рассматриваются только наиболее элементарные действия типа добавления записи в БД, при этом даже вопрос последующего извлечения данных зачастую не рассматривается, а в нём уже есть не очевидные моменты. Также можно заметить, что EF Core достаточно активно развивается и многие инструкции теряют актуальность в т.ч. по этой причине.
+
+В своих попытках решить такую элементарную на первый взгляд задачу, как разработка минимального демонстрационного приложения WinForms с использованием EF Core в VisualStudo 2015 я натолкнулся на целый проблем типа исключений, неожиданного поведения, непонимания как сделать нечто, что в туториалах подразумевается как самоочевидное и т.п. В результате некоторые шаги из тех, что я приведу ниже пришлось нащупывать практически в слепую, гугля, задавая вопросы и экспериментируя.
+
+В качестве платформы я выбрал .NET Framework 4.6.1 (версия 4.6.2 почему-то не появляется в списке доступных у меня в Visual Studio, но и при выборе 4.6.1 всё работает, возможно будет работать и с более ранними версиями, но я не проверял), в качестве среды разработки — Visual Studio Community Edition 2015 Update 3, в качестве СУБД — SQLite, в качестве ОС — Windows 7 64-bit.
+
+Ниже приведу список шагов, результатом которых стало исправно работающее демонстрационное приложение и в процессе выполнения которых не было получено ни одного сообщения об ошибке.
+
+0. Проверяем, что установлены последние версии .NET Framework 4.6.2 (web installer, offline installer) и Visual Studio 2015 Update 3 (update web installer, update offline installer ISO, web installer полной версии Visual Studio 2015 Update Community Edition 3, offline installer ISO полной версии Visual Studio 2015 Update Community Edition 3 с интергрированным обновлением)
+
+1. Устанавливаем Windows Management Framework 5.0 чтобы обновить PowerShell до версии 5.0. У меня (после установки Windows 7 и Visual Studio 2015 и всех обновлений к ним) в системе была версия 2.0 и далее в процессе я получил сообщение об ошибке с требованием более новой версии
+
+2. Устанавливаем .NET Core 1.0.1 tools Preview 2 (web installer, может использоваться для создания offline-дистрибутива при помощи ключа /layout).
+
+3. Обновляем расширение Visual Studio для работы с репозиториями NuGet. Для этого либо скачиваем актуальную на данный момент версию 3.5.0.1996 по прямой ссылке либо добавляем в настройки Visual Studio соответствующий репозиторий расширений для автоматического обновления.
+
+Visual Studio 2015 'Tools' - 'Options' - 'Extensions and Updates' dialogue
+
+4. Создаём новый проект типа Windows Forms Application. Я назвал его «Vs2015WinFormsEfcSqliteCodeFirst20170304Example» (актуальный на 04.03.2017 пример WinForms-приложения с использованием Entity Framework Core, подхода «code-first» и СУБД SQLite в Visual Studio 2015). В качестве target framework выбираем .NET Framework 4.6.1.
+
+5. Нажимаем правой кнопкой мыши по нашему проекту в панели Solution Explorer, выбираем Manage NuGet Packages..., переходим на вкладку Browse, устанавливаем Microsoft.EntityFrameworkCore.Sqlite.Design и Microsoft.EntityFrameworkCore.Tools. Для установки актуальных версий может потребоваться установить галочку «Include prerelease», в стабильных версиях может чего-то не хватать или наличествовать неисправленные баги. Я установил последние на данный момент Microsoft.EntityFrameworkCore.Sqlite.Design 1.1.0 и Microsoft.EntityFrameworkCore.Tools 1.1.0-preview4-final. Если возникнут проблемы с установкой Microsoft.EntityFrameworkCore.Tools можно попробовать сделать это через командную строку NuGet: в меню выбрать Tools — NuGet Package Manager — Package Manager Console, в появившейся консоли (которая, кстати, ещё понадобится нам далее) после приглашения «PM>» ввести «Install-Package Microsoft.EntityFrameworkCore.Tools -Pre»
+
+PM> Install-Package Microsoft.EntityFrameworkCore.Tools -Pre
+
+6. Создаём файлы исходного кода классов модели данных. Для порядка я поместил их в подпапку «Model» (некоторые называют её «Entities», некоторые кидают все классы в корень проекта, а некоторые и вовсе в один файл). Модель описывает учебный пример базы данных, хранящей список городов и людей в/из них. Каждый человек может быть связан только с одним городом, может быть неизвестно из какого он города вообще.
+
+Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleContext.cs
+
+using Microsoft.EntityFrameworkCore;
+
+namespace Vs2015WinFormsEfcSqliteCodeFirst20170304Example.Model
+{
+    public class Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleContext : DbContext
+    {
+        public DbSet<City> Cities { get; set; }
+
+        public DbSet<Person> People { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlite("Filename=Vs2015WinFormsEfcSqliteCodeFirst20170304Example.sqlite");
+        }
+    }
+}
+
+City.cs
+
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Vs2015WinFormsEfcSqliteCodeFirst20170304Example.Model
+{
+    public class City
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        [InverseProperty("City")]
+        public virtual ICollection<Person> People { get; set; }
+    }
+}
+
+Person.cs
+
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Vs2015WinFormsEfcSqliteCodeFirst20170304Example.Model
+{
+    public class Person
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string Surname { get; set; }
+
+        public int? CityId { get; set; }
+
+        [InverseProperty("People")]
+        public virtual City City { get; set; }
+    }
+}
+
+7. Разрешаем скрипты PowerShell, если этого не сделать может возникнуть ошибка "...\packages\Microsoft.EntityFrameworkCore.Tools.1.1.0-preview4-final\tools\init.ps1 cannot be loaded because running scripts is disabled on this system." Для этого переходим в командную строку NuGet (выбрать Tools — NuGet Package Manager — Package Manager Console в меню) и выполняем следующую команду
+
+PM> Set-ExecutionPolicy RemoteSigned
+
+8. Создаём «миграции». Для этого, сохранив и откомпилировав наш код (просто чтобы удостовериться в отсутствии явных опечаток) переходим в командную строку NuGet и выполняем следующую команду.
+
+PM> Add-Migration -Name "Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleMigration" -Context "Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleContext"
+
+в результате у нас в проекте должна появиться папка «Migrations» и два файла в ней: «Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleContextModelSnapshot.cs» и «20170304204355_Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleMigration.cs» (разумеется число в начале последнего у вас будет другое — это ни что иное, как дата и время в момент генерации в очевидном формате, я её потом вообще удалил оставив только «Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleMigration.cs»).
+
+9. Редактируем сгенерированные файлы чтобы добавить условие уникальности (unique constraint, также известное как вторичный ключ) на имя города (в реальности, конечно, бывают города с одинаковыми именами, но для примера будет не лишним)
+
+Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleMigration.cs
+
+using Microsoft.EntityFrameworkCore.Migrations;
+
+namespace Vs2015WinFormsEfcSqliteCodeFirst20170304Example.Migrations
+{
+    public partial class Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleMigration : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.CreateTable(
+                name: "Cities",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Name = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Cities", x => x.Id);
+
+                    // Эта строка добавлена вручную
+                    table.UniqueConstraint("UQ_Cities_Name", x => x.Name);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "People",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    CityId = table.Column<int>(nullable: true),
+                    Name = table.Column<string>(nullable: true),
+                    Surname = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_People", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_People_Cities_CityId",
+                        column: x => x.CityId,
+                        principalTable: "Cities",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_People_CityId",
+                table: "People",
+                column: "CityId");
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropTable(
+                name: "People");
+
+            migrationBuilder.DropTable(
+                name: "Cities");
+        }
+    }
+}
+
+Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleContextModelSnapshot.cs
+
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Vs2015WinFormsEfcSqliteCodeFirst20170304Example.Model;
+
+namespace Vs2015WinFormsEfcSqliteCodeFirst20170304Example.Migrations
+{
+    [DbContext(typeof(Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleContext))]
+    partial class Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleContextModelSnapshot : ModelSnapshot
+    {
+        protected override void BuildModel(ModelBuilder modelBuilder)
+        {
+            modelBuilder
+                .HasAnnotation("ProductVersion", "1.1.0-rtm-22752");
+
+            modelBuilder.Entity("Vs2015WinFormsEfcSqliteCodeFirst20170304Example.Model.City", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("Id");
+
+                    // Эта строка добавлена вручную
+                    b.HasIndex("Name").IsUnique();
+
+                    b.ToTable("Cities");
+                });
+
+            modelBuilder.Entity("Vs2015WinFormsEfcSqliteCodeFirst20170304Example.Model.Person", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int?>("CityId");
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("Surname");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CityId");
+
+                    b.ToTable("People");
+                });
+
+            modelBuilder.Entity("Vs2015WinFormsEfcSqliteCodeFirst20170304Example.Model.Person", b =>
+                {
+                    b.HasOne("Vs2015WinFormsEfcSqliteCodeFirst20170304Example.Model.City", "City")
+                        .WithMany("People")
+                        .HasForeignKey("CityId");
+                });
+        }
+    }
+}
+
+10. Генерируем файл БД. Для этого в командной строке NuGet выполняем следующую команду
+
+PM> Update-Database -Context "Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleContext"
+
+Файл БД создастся в той же директории, где находится скомпилированный exe-шник нашего приложения, у меня это "...\Vs2015WinFormsEfcSqliteCodeFirst20170304Example\bin\Debug\Vs2015WinFormsEfcSqliteCodeFirst20170304Example.sqlite".
+
+На данном этапе мы уже можем заглянуть внутрь созданного файла, например с помощью официального консольного клиента sqlite3 или бесплатной кроссплатформенной GUI оболочки DB Browser for SQLite, и удостовериться, что таблицы создались корректно. Помимо наших таблиц «Cities» и «People» мы также найдём там таблицу «__EFMigrationsHistory» со служебной информацией EF Core и «sqlite_sequence» со служебной информацией SQLite.
+
+11. Теперь перейдём к дизайнеру нашей формы, разместим на ней кнопочку, щёлкнем и на ней дважды чтобы создать обработчик события нажатия на кнопку и перейти к редактированию его кода. Ниже привожу свой код, демонстрирующий основные действия с записями БД. Я ещё имею привычку всегда переименовывать Form1 в MainForm и контролы аналогично по смыслу (в данном случае единственный контрол button1 в mainButton), но это дело вкуса и принятых в вашей команде стандартов именования.
+
+MainForm.cs
+
+private void mainButton_Click(object sender, EventArgs e)
+{
+    // Удаляем все записи из обеих таблиц
+    using (var context = new Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleContext())
+    {
+        foreach (var person in context.People)
+            context.Remove(person);
+
+        foreach (var city in context.Cities)
+            context.Remove(city);
+
+        context.SaveChanges();
+    }
+
+    // Добавляем новые записи в таблицу городв и затем
+    // новые записи в таблицу людей, ссылаясь на добавленные города
+    using (var context = new Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleContext())
+    {
+        var praha = new City { Name = "Praha" };
+
+        var london = new City { Name = "London" };
+
+        var madrid = new City { Name = "Madrid" };
+
+        var jan = new Person { Name = "Jan", City = praha };
+
+        var john = new Person { Name = "John", City = london };
+
+        var juan = new Person { Name = "Juan", City = madrid };
+
+        context.Cities.AddRange(praha, london, madrid);
+
+        context.People.AddRange(jan, john, juan);
+        
+        context.SaveChanges();
+    }
+
+    // Загружаем запись о добавленном ранее городе из БД,
+    // добавляем нового человека в этот город,
+    // изменяем добавленную ранее запись о человеке (добавляем фамилию)
+    using (var context = new Vs2015WinFormsEfcSqliteCodeFirst20170304ExampleContext())
+    {
+        // Обратите внимание на конструкцию Include(city => city.People)
+        // если написать просто context.Cities.Single(city => city.Name == "London");
+        // то город найдётся, но его список .People будет равен null.
+        // В production коде при использовании .Single также необходимо добавить обработку случаев,
+        // когда удовлетворяющих запросу записей нет или когда их болше одной
+        var london = context.Cities.Include(city => city.People)(city => city.Name == "London");
+
+        var peter = new Person { Name = "Peter", City = london };
+
+        var john = london.People.Single(person => person.Name == "John");
+
+        john.Surname = "Smith";
+
+        context.Add(peter);
+
+        context.Update(john);
+
+        context.SaveChanges();
+    }
+}
+
+Разумеется в реальной жизни вы реализуете в приложении более богатый интерфейс, более осмысленную логику, добавите обработку исключений и валидацию данных для их предотвращения, приведённого же примера достаточно для понимания того, как это сделать.
+
+Скачать весь приведённый выше и сопутствующий код можно тут.
+Теги:
+entity framework core
+visual studio 2015
+.net frameowrk
+десктоп
+winforms
+Хабы:
+.NET
+Visual Studio
+SQLite
+
+Реклама
+ЧИТАЮТ СЕЙЧАС
+YouTube: истец сам загрузил на платформу фильмы, а затем заявил о массовом нарушении авторских прав
+4,3k
+9
+TCS Group: Яндекс покупает банк «Тинькофф» за $5,48 млрд
+26,2k
+166
+Старый ламповый телевизор ежедневно приводил к падению ADSL-соединения в целой деревне
+8,4k
+99
+Tesla представила более мощную и дешевую батарею. Компания обещает выпустить электрокар за $25 000
+5,1k
+27
+Игроки и боты начали покупать Xbox One X вместо новой Xbox Series X из-за выдачи в поиске похожих картинок и названий
+1,4k
+1
+Precursor — собери сам свое open-source мобильное устройство с криптографической защитой
+8,5k
+6
+Мир ИБ в историях Опрос
+Редакторский дайджест
+Присылаем лучшие статьи раз в месяц
+
+Электропочта
+
++12
+22,8k
+16
+Поделиться
+
+19,0
+Карма
+0,0
+Рейтинг
+Иван Мащенко StrangeAttractor
+Пользователь
+ПОХОЖИЕ ПУБЛИКАЦИИ
+27 сентября 2016 в 10:20 Используем Entity Framework Core с приложением универсальной платформы Windows
++13
+9,9k
+32
+2
+19 июля 2016 в 10:48 Запускаем Angular2 c Visual Studio 2015
++9
+31,6k
+86
+44
+4 июня 2012 в 22:48 Создание множества диаграмм на базе одной модели Entity Framework в Visual Studio 2012
++9
+7,9k
+43
+9
+КУРСЫ
+Framework Laravel
+28 октября 2020
+ 4 месяца
+ 50 000 
+ OTUS
+Владение каркасом разработки Spring Framework 5
+30 ноября 2020
+ 31 250 
+ Luxoft Training
+Рефакторинг кода .NET
+7 декабря 2020
+ 30 200 
+ Luxoft Training
+Разработчик Java
+27 сентября 2020
+ 5 месяцев
+ 60 000 
+ OTUS
+SEO-специалист
+28 сентября 2020
+ 4 месяца
+ 36 000 
+ GeekBrains
+Больше курсов на Хабр Карьере
+
+Реклама
+Комментарии 16
+
+SbWereWolf
+19 марта 2017 в 10:04
+
+0
+спасибо
+Diaskhan
+19 марта 2017 в 16:28
+
+0
+Субъективно насколько ef core тормознутый? Вроде быстрее чем на 4.5? Но тоже вопрос на сколько? Иной раз кажется что орм по джаву все равно быстрее! Так как там очень экосистема развита!
+
+
+LightSUN
+19 марта 2017 в 19:31
+
+0
+Быстрее чем EF 6, но на простых запросах ему ещё далеко до ADO.NET или LINQ2DB.
+
+Razaz
+19 марта 2017 в 19:36
+
++1
+Dapper бы еще в сравнение ;)
+
+LightSUN
+19 марта 2017 в 19:45
+
+0
+А смысл? Быстрее чем ADO.NET не будет. Если LINQ2DB использовать только как мэппер (писать запросы руками текстом), то он не медленнее ADO.NET. Да и даже если использовать LINQ-запросы то LINQ2DB почти так же быстр как ADO.NET. Выбор очевиден :).
+
+Razaz
+19 марта 2017 в 22:19
+
+0
+Смысл посмотреть, сможет ли LINQ2DB потягаться с Dapper на сценариях с raw sql запросами. Судя по тестам Dapper он очень близок к ADO.
+
+LightSUN
+20 марта 2017 в 22:18
+
++1
+LINQ2DB не только может потягаться но и как минимум не хуже, т.к. не проигрывает ADO.NET (и дапперу значит тоже) — видно по результату «LINQ to DB raw SQL query».
+Я бы поставил вопрос наоборот — может ли даппер потягаться с LINQ2DB? На мой взгляд не может — даже если даппер так же быстр, он не умеет LINQ. Используя linq2db можно использовать LINQ не думая о производительности, а в крайнем случае всегда можно написать raw SQL.
+
+Razaz
+21 марта 2017 в 02:17
+
+0
+Вот тесты бы живые посмотреть :)
+LINQ не думая о производительности? :) Может в BenchmarkDotNet пару тестов накидаете LINQ vs Raw SQL;)
+Ну и неплохо было бы для начала поддержку NetStandard увидеть.
+dotnetdonik
+21 марта 2017 в 11:26
+
+0
+Было бы неплохо для начала поддержку асинхронности сделать. Я врядли бы взял нычне билиотеку, которая работает с i\o и не имеет асинхронного API. все остальные бенефиты нивелируються на фоне этого минуса.
+Если сравнивать с Dapper, его движок работает с reflection emit, linqtodb с lazy expression — которые он использует для сиквела и для маппинга, скорость приблизительно одинакова — кромме первой прогонки, когда linqtodb будет сливать колосально из-за необходимости построить sql и скомпилировать делегат для мапера IDataRecord -> IEnumerable.
+Но как я сказал на фоне такого глобального недостатка как отсуствие асинхронной работы с бд и повсеместное блокирование потоков — это колосальный минус и пережиток прошлого, тут и dapper и даже медленный EF во многих сценариях остануться предпочтительней.
+
+Razaz
+21 марта 2017 в 11:39
+
+0
+Вот интересно посмотреть как на микробенчмакре будут показывать себя LINQ запросы. Выражение то все равно собирается в юзер коде. Тоесть есть какой-то оверхед на GC. Поправьте если не прав.
+И NetStandard не наблюдается чет в Nuget…
+paz
+31 марта 2017 в 12:02
+
++1
+А можете указать в коде linq2db где они блочат потоки и нет асинхронной работы с бд?
+судя по коду они асинхронно вызывают ADO.NET ридеры…
+dotnetdonik
+6 апреля 2017 в 15:21
+
+0
+Заходим на доку:
+https://github.com/linq2db/linq2db
+
+return query.ToList();
+
+products.Count();
+
+Ничего об асинхронности.
+
+Смотрим дальше — что-то есть AsyncExtensions.cs…
+
+Заглядываем внутрь:
+public static Task<List> ToListAsync(this IQueryable source, CancellationToken token)
+{
+return GetTask(
+() => source.AsEnumerable().TakeWhile(_ => !token.IsCancellationRequested).ToList(),
+token);
+}
+
+Cихнронный блокирующий код запущен в отдельном потоке — антипатерн. Синхронная блокирующая работа с I\O замаскированная под асинхронность. В итоге имеем истощение тред пулла — и общие тормоза приложения. Лучше чем писать такое, просто писать синхронный блокирующий код и не запускать его на тред пуле с блокированием.
+
+
+LightSUN
+21 марта 2017 в 20:03
+
+0
+Я уже накидал тесты по ссылке выше :). В том числе и [LINQ via LINQ2DB] vs [raw SQL via LINQ2DB] vs [raw SQL via ADO.NET]. Причём raw SQL через LINQ2DB ещё и маппит результаты а не вручную как с ADO.NET и всё равно не отстаёт.
+Да, если использовать LINQ2DB то можно не думать (или почти не думать) о производительности. Некоторые вообще EF используют — с ним конечно надо думать. Хотя у EF Core уже намного лучше с этим.
+
+Razaz
+21 марта 2017 в 22:55
+
+0
+Чет все в одну кучу намешали :)
+1. Как dotnetdonik заметил, нет async.
+2. Все тесты последовательные с одним запросом. Сделайте хотя бы 32 потока.
+3. Важно сколько объектов генерится при обработке каждого запроса. Поэтому и просил BenchmarkDotNet со статистикой GC ;)
+
+LightSUN
+22 марта 2017 в 20:33
+
+0
+Как спросили всё вместе так и ответил :).
+1) Это к автору linq2db. Я не использую, но вот вроде есть — AsyncTests.cs.
+2) Я сделал тесты, которые интересовали меня, а вы можете сделать те, которые интересуют вас и поделиться результатами :). Код в паблике если вдруг нужен.
+3) Мне более важно чтобы быстро работало. Вот когда появится ORM которая будет быстрее чем LINQ2DB, тогда автор (а не я) пусть и смотрит статистику GC или ищет другую причину почему так :).
+dotnetdonik
+21 марта 2017 в 11:52
+
++1
+Тоесть есть какой-то оверхед на GC. Поправьте если не прав.
+
+Основной оверхед при
+скомпилировать делегат для мапера IDataRecord -> IEnumerable
+— очень медленно
+и при
+построить sql из expression
+
+Когда это делается в первый раз это тоже медленней чем собрать sql и строки. т.е. каждое новое linq выражение будет давать небольшой оверхед — это проход по дереву выражений естественно с доп обьектами и операциями т.д.
+Синтетические тесты плохой пример — они работают с одним и тем же типом и одним и тем же запросом, который linqtodb закеширует и не будет показывать реальной картины.
+
+В целом это нормальный подход при наличии кеша, а он есть у linqtodb. Основной недостаток этой библиотеки блокирующий синхронный API для работы с базой — все миллисекунды выигрыша полностью нивелирует этот подход с точки зрения вреда для приложения.
+Только полноправные пользователи могут оставлять комментарии. Войдите, пожалуйста.
+
+ЧТО ОБСУЖДАЮТ
+Сейчас
+Вчера
+Неделя
+Старый ламповый телевизор ежедневно приводил к падению ADSL-соединения в целой деревне
+8,4k
+99
+Tesla представила более мощную и дешевую батарею. Компания обещает выпустить электрокар за $25 000
+5,1k
+27
+Сбербанк купит музыкальный сервис и создаст «СберЗвук»
+4k
+28
+Black [O]lives Matter: раса, криминал и огонь на поражение в США. Часть 3
+10,7k
+203
+Розыгрыш Logitech MX Master 3 в комментариях Мегапост
+САМОЕ ЧИТАЕМОЕ
+Сутки
+Неделя
+Месяц
+TCS Group: Яндекс покупает банк «Тинькофф» за $5,48 млрд
++46
+26,2k
+11
+166
+Повесть о трекболах
++58
+18,8k
+44
+146
+О работе ПК ч.3: От включения до полной загрузки Windows 10
++38
+18,1k
+190
+33
+Facebook угрожает уйти из Европы, если компанию не оставят в покое местные регуляторы
++15
+11,4k
+3
+187
+Фриланс с соцпакетом – дело недалёкого будущего. Или нет? Мегапост
+МИНУТОЧКУ ВНИМАНИЯ
+Исследование
+Зарплаты в ИТ: ожидания и реальность
+Исследование
+Голосуй сердцем: выбираем лучших IT-работодателей Хабра
+Разместить
+Ваш аккаунт
+Войти
+Регистрация
+Разделы
+Публикации
+Новости
+Хабы
+Компании
+Пользователи
+Песочница
+Информация
+Устройство сайта
+Для авторов
+Для компаний
+Документы
+Соглашение
+Конфиденциальность
+Услуги
+Реклама
+Тарифы
+Контент
+Семинары
+Мегапроекты
+Мерч
+© 2006 – 2020 «Habr»
+ Настройка языка
+О сайте
+Служба поддержки
+Мобильная версия
+
+
+Copyright © metanit.com, 2012-2020. Все права защищены.
+
+Copyright © metanit.com, 2012-2020. Все права защищены.
+Глава 22. Работа с JSON
+Глава 23. Работа с XML
+Глава 24. Процессы и домены приложения
+Глава 25. Валидация модели
+Вконтакте| Twitter| Канал сайта на youtube| Помощь сайту
+Контакты для связи: metanit22@mail.ru
+
+Copyright © metanit.com, 2012-2020. Все права защищены.
+BingGoogleMail.ru
