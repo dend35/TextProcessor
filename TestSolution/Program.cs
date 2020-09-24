@@ -14,10 +14,32 @@ namespace TestSolution
         
         static async Task Main(string[] args)
         {
-            await using var wordHelper = new WordHelper(new WordContext());
-            Console.WriteLine("Для получения помощи введите /help");
-            await GUI(wordHelper);
-            Console.WriteLine("Exit");
+            await using IWordHelper wordHelper = new WordHelper(new WordContext());
+            if (args.Length != 0)
+            {
+                foreach (var arg in args)
+                {
+                    switch (arg)
+                    {
+                        case "update":
+                            await wordHelper.CreateDictionary("input.txt");
+                            break;
+                        case "create":
+                            await wordHelper.Clear();
+                            await wordHelper.CreateDictionary("input.txt");
+                            break;
+                        case "delete":
+                            await wordHelper.Clear();
+                            break;
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("Для получения помощи введите /help");
+                await GUI(wordHelper);
+                Console.WriteLine("Exit");
+            }
         }
 
         static async Task GUI(IWordHelper wordHelper)
